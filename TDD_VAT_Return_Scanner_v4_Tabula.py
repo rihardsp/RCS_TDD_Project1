@@ -41,7 +41,7 @@ def whole_data(arg_file_names_list):
     Function also adds totalling row at the bottom of dataframe"""
 
     whole_data_list = []
-    # loop which iterates through the directory and executes function vat_return_reader
+    # iterates through the directory and executes function vat_return_reader appending data to list
     for file_name in arg_file_names_list:
         whole_data_list.append(vat_return_reader(file_name))
     # creates data frame from list
