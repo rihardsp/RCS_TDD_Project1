@@ -1,3 +1,5 @@
+#first hobby project - build in free time for self learning
+
 import sys
 import time
 import os
